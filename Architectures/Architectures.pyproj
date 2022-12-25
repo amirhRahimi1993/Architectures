@@ -23,7 +23,6 @@
   <ItemGroup>
     <Compile Include="Architectures.py" />
     <Compile Include="VGG\Model.py" />
-    <Compile Include="VGG\training.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="VGG\" />

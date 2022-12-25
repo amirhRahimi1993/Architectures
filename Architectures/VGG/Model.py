@@ -51,6 +51,7 @@ class VGG_net(nn.Module):
 if __name__ == "__main__":
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model = VGG_net(inchannel = 3, numclass = 1000).to(device)
+    print(model)
     BATCH_SIZE = 3
     my_random_input = torch.randn(BATCH_SIZE,3,224,224).to(device)
     assert model(my_random_input).shape == torch.Size([BATCH_SIZE,1000])
