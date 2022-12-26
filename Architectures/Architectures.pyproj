@@ -21,10 +21,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AlexNet\Model.py" />
     <Compile Include="Architectures.py" />
     <Compile Include="VGG\Model.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="AlexNet\" />
     <Folder Include="VGG\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
