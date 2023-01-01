@@ -24,11 +24,13 @@
     <Compile Include="AlexNet\Model.py" />
     <Compile Include="Architectures.py" />
     <Compile Include="Inception\Model.py" />
+    <Compile Include="ResNet\Model.py" />
     <Compile Include="VGG\Model.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="AlexNet\" />
     <Folder Include="Inception\" />
+    <Folder Include="ResNet\" />
     <Folder Include="VGG\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
